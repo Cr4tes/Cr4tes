@@ -31,9 +31,15 @@ I’m a software developer diving deep into Rust, systems programming, and build
 
 ---
 
-### 📫 **Connect with Me**
+### 🐍 **Snake Eating My Commits**
 
-<p align="left">
-  <a href="https://twitter.com/yourhandle"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
-  <a href="https://linkedin.com/in/yourhandle"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cr4tes/Cr4tes/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
+
+---
+
+### 📜 **How the Snake Works**
+The snake animation is generated from your GitHub contributions. To enable it:
+1. Add a **GitHub Action** to generate the snake (I’ll do this next).
+2. The snake will update daily based on your commits.
