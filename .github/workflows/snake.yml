@@ -16,6 +16,8 @@ jobs:
         with:
           github_user_name: Cr4tes
           svg_output_path: output/github-contribution-grid-snake.svg
+      - name: Verify SVG exists
+        run: test -f output/github-contribution-grid-snake.svg || exit 1
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
