@@ -13,9 +13,12 @@ jobs:
       - name: Create output directory
         run: mkdir -p output
       - uses: Platane/snk@master
+        id: snk
         with:
           github_user_name: Cr4tes
           svg_output_path: output/github-contribution-grid-snake.svg
+      - name: Debug output directory
+        run: ls -la output
       - name: Verify SVG exists
         run: test -f output/github-contribution-grid-snake.svg || exit 1
       - uses: crazy-max/ghaction-github-pages@v3
